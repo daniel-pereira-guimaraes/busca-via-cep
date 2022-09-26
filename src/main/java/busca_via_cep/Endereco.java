@@ -1,5 +1,8 @@
 package busca_via_cep;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class Endereco {
 	
 	private String cep;
@@ -93,11 +96,4 @@ public class Endereco {
 		this.siafi = siafi;
 	}
 
-	@Override
-	public String toString() {
-		return "Endereco [cep=" + cep + ", logradouro=" + logradouro + ", complemento=" + complemento + ", bairro="
-				+ bairro + ", localidade=" + localidade + ", uf=" + uf + ", ibge=" + ibge + ", gia=" + gia + ", ddd="
-				+ ddd + ", siafi=" + siafi + "]";
-	}
-	
 }
