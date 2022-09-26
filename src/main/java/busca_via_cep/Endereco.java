@@ -1,8 +1,5 @@
 package busca_via_cep;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 public class Endereco {
 	
 	private String cep;
